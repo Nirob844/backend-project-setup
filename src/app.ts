@@ -18,7 +18,7 @@ app.use(globalErrorHandler);
 
 //Testing
 app.get('/', async (req: Request, res: Response) => {
-  // res.send('Working Successfully')
+  res.send('Working Successfully');
   throw new Error('testing');
 });
 
