@@ -1,5 +1,5 @@
 {
-  "name": "digital-cow-hut",
+  "name": "quiz_application",
   "version": "1.0.0",
   "description": "",
   "main": "src/server.ts",
@@ -9,6 +9,7 @@
     "lint:fix": "eslint . --fix",
     "prettier:check": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\"",
     "prettier:fix": "prettier --write \"**/*.+(js|ts|json)\"",
+    "prepare": "husky install",
     "lint-prettier": "yarn lint:check && yarn prettier:check",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

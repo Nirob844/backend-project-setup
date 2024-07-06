@@ -19,7 +19,7 @@ app.use(globalErrorHandler);
 //Testing
 app.get('/', async (req: Request, res: Response) => {
   res.send('Working Successfully');
-  throw new Error('testing');
+  // throw new Error('testing')
 });
 
 export default app;
